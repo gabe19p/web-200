@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="purselley_EX6.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>WEB 200 Fundamentals of Web Development</title>
+  </head>
+  <body>
+    <header>
+      <h1>Assignment 9.2: Build a Web Page - Part 6</h1>
+    </header>
+
+    <div id="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div id="container">
+      <main class="card">
+        <div class="card-title">Book Entry Form</div>
+        <div class="card-content">
+          <div class="form">
+            <div class="form-field">
+              <label for="txtBookName">Book Name:</label>
+              <input
+                type="text"
+                id="txtBookName"
+                name="txtBookName"
+                class="input"
+              />
+            </div>
+            <div class="form-field">
+              <button type="submit" class="btn btn-primary full-width">
+                Create Book
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <br />
+      <br />
+      <div class="card">
+        <div class="card-title">Top 5 Favorite Books</div>
+
+        <div class="card-content">
+          <table id="books">
+            <tr>
+              <th>Book Id</th>
+              <th>Book Name</th>
+            </tr>
+            <tr>
+              <td>100</td>
+              <td>Rich Dad Poor Dad</td>
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>Harry Potter</td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>Attack on Titan (Manga)</td>
+            </tr>
+            <tr>
+              <td>103</td>
+              <td>Demon Slayer (Manga)</td>
+            </tr>
+            <tr>
+              <td>104</td>
+              <td>Lord of the Flies</td>
+            </tr>
+          </table>
+          <!-- <ol>
+            <li>Rich Dad Poor Dad</li>
+            <li>Harry Potter and the Goblet of Fire</li>
+            <li>Attack on Titan (Manga)</li>
+            <li>Demon Slayer (Manga)</li>
+            <li>Lord of the Flies</li>
+          </ol> -->
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        &#169;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        <a href="https://www.bellevue.edu" target="_blank"
+          >Bellevue University</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
